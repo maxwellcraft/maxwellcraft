@@ -1,0 +1,27 @@
+{
+  "name": "mcpackage",
+  "version": "0.0.0",
+  "description": "Maxwell Craft package file for webdev",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxwellcraft/maxwellcraft.git"
+  },
+  "keywords": [
+    "heroku",
+    "maxwellcraft"
+  ],
+  "author": "Max Craft",
+  "license": "UVa",
+  "bugs": {
+    "url": "https://github.com/maxwellcraft/maxwellcraft/issues"
+  },
+  "homepage": "https://github.com/maxwellcraft/maxwellcraft",
+  "dependencies": {
+    "express": "^4.1.1",
+    "logfmt": "^1.1.2"
+  }
+}
