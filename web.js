@@ -6,7 +6,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-  res.send('This is my new site.');
+  res.sendfile('homepage.html');
 });
 
 var port = Number(process.env.PORT || 5000);
