@@ -2,40 +2,40 @@ p
 {
 font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
-ul
-{
-position: fixed;
-text-align:center;
-top: 0;
-left: 0;
-height: 40px;
+#nav {
 width: 100%;
-list-style-type:none;
-margin:0 auto;
-padding:0;
-overflow:hidden;
+float: left;
+margin:0;
+padding: 0;
+background-color: #4C4C4C; 
 }
-
-li
-{
-float:left;
-}
-a:link,a:visited
-{
-display:block;
+#nav ul {
+min-width:100%;
+position:fixed;
+top:0;
+left:0;
+list-style: none;
+margin: 0 auto;
+padding: 0; 
+background-color: #4C4C4C; 
 font-family:"Trebuchet MS", Helvetica, sans-serif;
-width:200px;
-font-size:18px;
-font-weight:bold;
-color:#FFFFFF;
-background-color:#4C4C4C;
-text-align:center;
-padding:9px;
-text-decoration:none;
-text-transform:none;
+}
+#nav li {
+	float: left; 
+}
+#nav a:link,a:visited {
+	display: block;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	padding: 9px;
+	width:200px;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:18px;
+	color: #FFFFFF;
+
 }
 
-a:hover,a:active
-{
-background-color:#0066FF
+#nav li a:hover {
+	background-color: #0066FF; 
 }
