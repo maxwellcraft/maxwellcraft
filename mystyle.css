@@ -28,7 +28,7 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 width:200px;
 font-weight:bold;
 color:#FFFFFF;
-background-color:#008AE6;
+background-color:#4C4C4C;
 text-align:center;
 padding:9px;
 text-decoration:none;
@@ -37,5 +37,5 @@ text-transform:none;
 
 a:hover,a:active
 {
-background-color:#FF3300
+background-color:#0066FF
 }
