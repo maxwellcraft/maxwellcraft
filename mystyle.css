@@ -8,12 +8,20 @@ margin-left:auto;
 margin-right:auto;
 color:#FFFFFF;
 }
+body {
+background-image:url(cloud2.JPG);
+width:100%;
+height:100%;
+background-size:cover;
+}
 img
 {
 display:block;
 margin-left: auto;
 margin-right:auto;
+background-repeat:no-repeat;
 }
+
 h1
 {
 color:#FFFFFF;
