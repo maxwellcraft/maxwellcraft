@@ -36,12 +36,13 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 	text-align:center;
 	text-decoration: none;
 	font-weight: bold;
-	font-size:22px;
+	font-size:23px;
 	color: #FFFFFF;
 
 }
 
 #nav li a:hover {
-	background-color: #4c4c4c; 
-	color: #FFFFFF;
+
+	background: linear-gradient(to right, #B2B2B2, #FFFFFF ); 
+	color: #000000;
 }
