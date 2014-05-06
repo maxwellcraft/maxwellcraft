@@ -72,3 +72,12 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 	background: linear-gradient(to right, #FFFFFF, #008A8A ); 
 	color: #000000;
 }
+
+#papers {
+display:block;
+margin-left:auto;
+margin-right:auto;
+background-color:#FFFFFF;
+max-width:70%;
+
+}
