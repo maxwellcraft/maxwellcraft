@@ -24,7 +24,14 @@ height:50%;
 width:18%;
 background-repeat:no-repeat;
 }
-
+#casesFrame {
+margin-right:1%;
+margin-left:auto;
+display:block;
+margin-top:4%;
+float:right;
+background-color:#FFFFFF;
+}
 h1
 {
 color:#FFFFFF;
@@ -76,7 +83,7 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 	color: #000000;
 }
 
-iframe {
+#writingFrame, #projectsFrame {
 display:block;
 margin-left:auto;
 margin-right:auto;
