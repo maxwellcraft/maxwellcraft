@@ -1,10 +1,10 @@
 p
 {
 font-family:"Trebuchet MS", Helvetica, sans-serif;
-font-size:18px;
+font-size:20px;
 text-indent:7%;
-max-width:75%;
-margin-left:auto;
+max-width:65%;
+margin-left:15%;
 margin-right:auto;
 color:#FFFFFF;
 }
@@ -19,15 +19,18 @@ img
 display:block;
 margin-left: auto;
 margin-right:auto;
+float:right;
+height:50%;
+width:18%;
 background-repeat:no-repeat;
 }
 
 h1
 {
 color:#FFFFFF;
-text-align:center;
+margin-left:23%;
 font-family:"Trebuchet MS", Helvetica, sans-serif;
-font-size:32px;
+font-size:36px;
 }
 #nav {
 width: 100%;
@@ -73,11 +76,23 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 	color: #000000;
 }
 
-#papers {
+iframe {
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:5%;
+background-color:#FFFFFF;
+max-width:70%;
+font-size:18px;
+
+}
+
+object {
 display:block;
 margin-left:auto;
 margin-right:auto;
 background-color:#FFFFFF;
 max-width:70%;
-
 }
+
+
