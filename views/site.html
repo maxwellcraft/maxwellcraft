@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title> Max Craft </title>
+	
+	<script src="jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="customStyle.css">
+</head>
+<script>
+$(document).ready(function () {
+        $('ul.nav > li').click(function (e) {
+            e.preventDefault();
+            $('ul.nav > li').removeClass('active');
+            $(this).addClass('active');                
+        });            
+    });
+</script>
+
+<body>
+<div class="row">
+	<div class="navbar navbar-default">
+		<ul class="nav nav-pills nav-justified pillcolor">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Credentials</a></li>
+			<li><a href="#">Skills</a></li>
+			<li><a href="#">Work</a></li>
+			<li><a href="#">Interests</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html
