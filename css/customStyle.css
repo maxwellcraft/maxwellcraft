@@ -1,0 +1,86 @@
+body {
+  background-color:rgba(204, 204, 204, .5);
+  height:100%;
+}
+
+
+.navbar  .pillcolor > li.active > a {
+    background-color: #CA7700;
+    color: #ffffff;
+}
+
+.navbar .pillcolor > li.active > a:hover {
+  background-color: #CA7700;
+  color: #ffffff;
+}
+
+.navbar .pillcolor > li > a:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+.navbar .pillcolor {
+}
+
+.navbar {
+	background-color:#114475;
+	width:100%;
+	padding-left:5%;
+	padding-right:5%;
+  	font-family: "Trebuchet MS", sans-sarif;
+  	color:#AB965E;
+}
+.navbar .nav > li > a {
+	color:#ffffff;
+	font-size:140%;
+}
+
+.maxImage {
+   width:40%;
+   float:left;
+   margin-right:4%;
+}
+
+.descHeader {
+  float:none;
+  margin-top:-4%;
+}
+
+.homepageRightPanel {
+  margin-left:-5%;
+  margin-right:5%;
+}
+
+/* Homepage Stuff
+
+html,body,#fullPanel
+{
+    height:100%;
+}
+#fullPanel
+{
+    display:table;
+    width: 100%;
+    padding: 10 10; 
+
+}
+.homepageMidPanel, .homepageRightPanel {
+  height:100%;
+  width:100%;
+  float:left;
+}
+.row
+{
+    height: 100%;
+    display: table-row;
+}
+
+.col-md-7, .col-md-4, .col-md-1 {
+  display:table-cell;
+  float:none;
+}*/
+
+
+
+
+
+

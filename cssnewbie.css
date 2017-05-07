@@ -1,0 +1,42 @@
+p
+{
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+ul
+{
+min-width:100%;
+position: fixed;
+text-align:center;
+top: 0;
+left: 0;
+height: 40px;
+width: 100%;
+list-style-type:none;
+margin:0 auto;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+width:200px;
+font-size:18px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#4C4C4C;
+text-align:center;
+padding:9px;
+text-decoration:none;
+text-transform:none;
+}
+
+a:hover,a:active
+{
+background-color:#0066FF
+}
